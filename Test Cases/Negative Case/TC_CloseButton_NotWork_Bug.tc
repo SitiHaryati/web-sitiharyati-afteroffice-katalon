@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CloseButton_NotWork_Bug</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f499da2-5431-424a-9a1c-08f7aa8135bc</testCaseGuid>
+</TestCaseEntity>

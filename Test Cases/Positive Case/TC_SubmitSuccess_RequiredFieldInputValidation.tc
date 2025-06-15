@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SubmitSuccess_RequiredFieldInputValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65371d7c-10a6-4780-8a7e-abab9e13b0e4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SubmitSuccess_AllFieldInput</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bec11996-c859-48a7-95ee-c723e8ed23c6</testCaseGuid>
+</TestCaseEntity>

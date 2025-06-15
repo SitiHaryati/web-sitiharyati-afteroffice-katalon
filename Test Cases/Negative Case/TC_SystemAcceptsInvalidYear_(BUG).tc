@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SystemAcceptsInvalidYear_(BUG)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44cbcc76-755a-40ec-a13b-6dc7f7de6352</testCaseGuid>
+</TestCaseEntity>

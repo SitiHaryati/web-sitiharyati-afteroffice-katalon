@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SubmitSuccess_MultipleSubject</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e52c58f1-24f1-4900-8074-9d324b3658d3</testCaseGuid>
+</TestCaseEntity>
