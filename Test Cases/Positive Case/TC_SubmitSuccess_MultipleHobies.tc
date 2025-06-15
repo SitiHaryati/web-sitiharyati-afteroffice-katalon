@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SubmitSuccess_MultipleHobies</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>419cbed0-6673-41fb-be9e-f3953a41acd8</testCaseGuid>
+</TestCaseEntity>
