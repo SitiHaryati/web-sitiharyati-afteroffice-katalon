@@ -1,0 +1,37 @@
+name: Run All Katalon Test Suites
+
+on:
+  workflow_dispatch: # THIS IS A MANUAL TRIGGER
+
+jobs:
+  katalon-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: sudo apt-get update && sudo apt-get install -y xvfb unzip wget default-jdk
+
+      - name: Download Katalon Runtime Engine
+        run: |
+          wget https://download.katalon.com/9.2.0/Katalon_Studio_Engine_Linux_64-9.2.0.tar.gz -O katalon.tar.gz
+          mkdir katalon
+          tar -xvzf katalon.tar.gz -C katalon --strip-components=1
+          chmod -R +x katalon
+
+      - name: Run All Test Suites in TS_Negative and TS_Positive
+        run: |
+          for ts in "Test Suites/TS_Negative"/*.ts "Test Suites/TS_Positive"/*.ts; do
+            echo "Running test suite: $ts"
+            ./katalon/katalonc \
+              -noSplash \
+              -runMode=console \
+              -projectPath="$(pwd)/$(basename *.prj)" \
+              -retry=0 \
+              -testSuitePath="$ts" \
+              -executionProfile="default" \
+              -browserType="Chrome" \
+              -apiKey="${{ secrets.KATALON_API_KEY }}"
+          done
